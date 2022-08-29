@@ -1,6 +1,6 @@
 <?php
 
-namespace PDGA\Exceptions;
+namespace PDGA\Exception;
 
 class ValidationException extends \Exception
 {

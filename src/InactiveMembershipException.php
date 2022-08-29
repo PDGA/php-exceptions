@@ -1,6 +1,6 @@
 <?php
 
-namespace PDGA\Exceptions;
+namespace PDGA\Exception;
 
 class InactiveMembershipException extends \Exception
 {
