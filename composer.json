@@ -1,0 +1,24 @@
+{
+    "name": "pdga/exception",
+    "type": "library",
+    "description": "Custom exception classes used by the PDGA.",
+    "keywords": [],
+    "homepage": "https://github.com/PDGA/php-exceptions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PDGA",
+            "email": "it@pdga.com",
+            "homepage": "https://www.pdga.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PDGA\Exception": "src/"
+        }
+    }
+}
