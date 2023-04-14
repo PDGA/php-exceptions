@@ -12,18 +12,21 @@ class ValidationListException extends \Exception
     /**
      * Adds a single validation error to the exception.
      * Errors are stored as an array keyed on $field to allow multiple error messages for the same field.
-     * Each error contains a string $message and a nullable int $code.
+     * Each error contains a string $message, a nullable int $code and an optional input $value representing
+     * the input value that produced the error.
      *
      * @param string   $message
      * @param string   $field
      * @param int|null $code
+     * @param mixed    $value
      *
      * @return void
      */
     public function addError(
         string $message,
         string $field,
-        ?int   $code = null
+        ?int   $code = null,
+        mixed  $value = null,
     )
     {
         // Instantiate a validation error list for the given $field if needed.
@@ -33,8 +36,9 @@ class ValidationListException extends \Exception
         }
 
         $this->validation_errors[$field][] = [
-            'code'    => $code,
-            'message' => $message
+            'code'       => $code,
+            'message'    => $message,
+            'inputValue' => $value,
         ];
     }
 
