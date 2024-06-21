@@ -25,13 +25,11 @@ class ValidationListException extends \Exception
     public function addError(
         string $message,
         string $field,
-        ?int   $code = null,
-        mixed  $value = null,
-    )
-    {
+        ?int $code = null,
+        mixed $value = null,
+    ) {
         // Instantiate a validation error list for the given $field if needed.
-        if (!isset($this->validation_errors[$field]))
-        {
+        if (!isset($this->validation_errors[$field])) {
             $this->validation_errors[$field] = [];
         }
 
