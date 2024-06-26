@@ -13,12 +13,6 @@
             "role": "Developer"
         }
     ],
-    "repositories":[
-        {
-            "type": "vcs",
-            "url": "https://github.com/PDGA/coding-standards.git"
-        }
-    ],
     "require": {
         "php": ">=7.4.0"
     },

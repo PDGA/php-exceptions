@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8baf150158b24e50e03dd4455e2e1a80",
+    "content-hash": "8a0678c04ebc02b766012322ee81f20e",
     "packages": [],
     "packages-dev": [
         {
@@ -30,6 +30,7 @@
                     "Pdga\\CodingStandards\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -45,8 +46,8 @@
             ],
             "description": "Coding standard rulesets to be used to assist in styling code at the PDGA.",
             "support": {
-                "source": "https://github.com/PDGA/coding-standards/tree/1.0.3",
-                "issues": "https://github.com/PDGA/coding-standards/issues"
+                "issues": "https://github.com/PDGA/coding-standards/issues",
+                "source": "https://github.com/PDGA/coding-standards/tree/1.0.3"
             },
             "time": "2024-06-20T16:34:18+00:00"
         },
@@ -140,5 +141,5 @@
         "php": ">=7.4.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -127,14 +127,14 @@ installed that can be used. For more information see [the official Composer docu
 ## Code Formatting Standards
 #### Run PHP_CodeSniffer to see the existing styling issues.
 ```
-composer sniff
+./bin/composer sniff
 ```
 
 #### Run the formatter to automatically fix the styling issues that can be fixed.
 ```
-composer format
+./bin/composer format
 ```
 or
 ```
-composer format-verbose
+./bin/composer format-verbose
 ```

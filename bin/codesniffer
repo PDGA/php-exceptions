@@ -5,4 +5,4 @@ if [[ $# -eq 0 ]] ; then
     exit 0
 fi
 
-docker compose run --rm -u $(id -u):$(id -g) codesniffer ./vendor/bin/$1 --standard=./vendor/pdga/coding-standards/src/ruleset.xml ./src $2
+./vendor/bin/$1 --standard=./vendor/pdga/coding-standards/src/ruleset.xml ./src $2
