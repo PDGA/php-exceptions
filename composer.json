@@ -23,10 +23,5 @@
         "psr-4": {
             "PDGA\\Exception\\": "src/"
         }
-    },
-    "scripts": {
-        "sniff": "bin/codesniffer phpcs",
-        "format": "bin/codesniffer phpcbf",
-        "format-verbose": "bin/codesniffer phpcbf -v"
     }
 }

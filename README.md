@@ -126,15 +126,12 @@ installed that can be used. For more information see [the official Composer docu
 
 ## Code Formatting Standards
 #### Run PHP_CodeSniffer to see the existing styling issues.
+- [CLI Reference](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Usage#getting-help-from-the-command-line)
 ```
-./bin/composer sniff
+./bin/codesniffer
 ```
-
 #### Run the formatter to automatically fix the styling issues that can be fixed.
+- [CLI Reference](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically#using-the-php-code-beautifier-and-fixer)
 ```
-./bin/composer format
-```
-or
-```
-./bin/composer format-verbose
+./bin/codeformatter
 ```
