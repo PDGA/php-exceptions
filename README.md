@@ -117,3 +117,21 @@ changed you can use the following command in that application:
 
 The above commands are very simple, however there are many options as far as dictating which versions are
 installed that can be used. For more information see [the official Composer documentation](https://getcomposer.org/doc/articles/versions.md#writing-version-constraints).
+
+## Install Composer Dependencies
+
+```
+./bin/composer install
+```
+
+## Code Formatting Standards
+#### Run PHP_CodeSniffer to see the existing styling issues.
+- [CLI Reference](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Usage#getting-help-from-the-command-line)
+```
+./bin/codesniffer
+```
+#### Run the formatter to automatically fix the styling issues that can be fixed.
+- [CLI Reference](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically#using-the-php-code-beautifier-and-fixer)
+```
+./bin/codeformatter
+```
